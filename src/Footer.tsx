@@ -23,9 +23,6 @@ function Footer() {
                 </p>
 
                 <div className="footer-links">
-                    <a href="#" className="footer-link">Twitter</a>
-                    <a href="#" className="footer-link">LinkedIn</a>
-                    <a href="#" className="footer-link">Instagram</a>
                     <Link to="/team" className="footer-link">Team</Link>
                 </div>
             </div>
