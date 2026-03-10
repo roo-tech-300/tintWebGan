@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import bgImage from '../assets/images/Bg.jpg';
+import bgImage from './assets/images/Bg.jpg';
+import comScreen2 from './assets/images/comScreen2.png';
 import {
     Calendar,
     Users,
@@ -143,7 +144,7 @@ function Home() {
 
                         <div className="feature-graphic" style={{ display: 'flex', justifyContent: 'center' }}>
                             <div >
-                                <img src="../assets/images/comScreen2.png" className="graphic-mockup" />
+                                <img src={comScreen2} className="graphic-mockup" />
                             </div>
                         </div>
                     </div>

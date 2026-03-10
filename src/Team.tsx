@@ -1,23 +1,26 @@
 import { Github, Linkedin, Twitter } from 'lucide-react';
+import eluziaImg from './assets/images/Team/Eluzia.jpeg';
+import gabrielImg from './assets/images/Team/Gabriel.jpeg';
+import chibikeImg from './assets/images/Team/Chibike.jpeg';
 
 const TEAM_MEMBERS = [
     {
         name: 'Eluzia Ameh-Ako',
         role: 'Founder & CEO',
         bio: 'Visionary leader with a passion for student connectivity.',
-        image: '../assets/images/team/Eluzia.jpeg',
+        image: eluziaImg,
     },
     {
         name: 'Gabriel Godwin',
         role: 'Lead Developer',
         bio: 'Full-stack wizard turning ideas into scalable applications.',
-        image: '../assets/images/team/Gabriel.jpeg',
+        image: gabrielImg,
     },
     {
         name: 'Emmanuel John',
         role: 'Lead Designer',
         bio: 'Crafting intuitive and beautiful user experiences.',
-        image: '../assets/images/team/Chibike.jpeg',
+        image: chibikeImg,
     },
 ];
 

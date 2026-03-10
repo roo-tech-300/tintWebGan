@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import logo1 from './assets/images/Logo 1.png';
 
 function Footer() {
     return (
@@ -12,7 +13,7 @@ function Footer() {
                         alignItems: "center",
                         justifyContent: "center",
                     }}>
-                        <img src="../assets/images/logo 1.png" height={30} alt="Logo" />
+                        <img src={logo1} height={30} alt="Logo" />
                     </div>
                     <span className="logo-text" style={{ fontSize: '1.25rem' }}>Tint</span>
                 </div>
