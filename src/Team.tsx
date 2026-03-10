@@ -12,16 +12,16 @@ const TEAM_MEMBERS = [
         image: eluziaImg,
     },
     {
-        name: 'Gabriel Godwin',
-        role: 'Lead Developer',
-        bio: 'Gabriel is a Mechatronics Engineering student at the Federal University of Technology, Minna, with a robust foundation spanning software development, embedded systems, and IoT. His multidisciplinary expertise bridges the gap between hardware and software—ranging from Arduino-based prototypes to modern frontend web development and blockchain integration through the Solana All-Star Program. Having completed rigorous technical training with the ESRIG Cohort, Gabriel is highly skilled in collaborative development and version control. Driven by a relentless curiosity for cross-domain technology, he leads the company’s technical vision, transforming complex ideas into scalable product solutions.',
-        image: gabrielImg,
-    },
-    {
         name: 'Emmanuel John',
         role: 'Head of operations',
         bio: 'Emmanuel is a Geology student by training whose true professional passion lies in the intersection of operations, branding, and human connection. With a background in marketing and growth at Sure Foundation and Taberah Glory, he proved his ability to drive results in high-pressure environments. His breakthrough came at the fashion brand Made by Boski, where he spearheaded growth efforts through creative strategy and relationship management. A natural networker and problem-solver, Emmanuel brings a unique cross-disciplinary perspective to the team. As Head of Operations, he leverages his energy and organizational expertise to streamline Tint’s internal processes, manage key partnerships, and ensure the seamless delivery of the company’s vision.',
         image: chibikeImg,
+    },
+    {
+        name: 'Gabriel Godwin',
+        role: 'Lead Developer',
+        bio: 'Gabriel is a Mechatronics Engineering student at the Federal University of Technology, Minna, with a robust foundation spanning software development, embedded systems, and IoT. His multidisciplinary expertise bridges the gap between hardware and software—ranging from Arduino-based prototypes to modern frontend web development and blockchain integration through the Solana All-Star Program. Having completed rigorous technical training with the ESRIG Cohort, Gabriel is highly skilled in collaborative development and version control. Driven by a relentless curiosity for cross-domain technology, he leads the company’s technical vision, transforming complex ideas into scalable product solutions.',
+        image: gabrielImg,
     },
 ];
 
