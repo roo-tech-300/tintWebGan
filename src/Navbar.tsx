@@ -5,9 +5,9 @@ function Navbar() {
     return (
         <nav className="navbar">
             <div className="container nav-container">
-                <div className="logo-group">
+                <Link to="/" className="logo-group" style={{ textDecoration: 'none', color: 'inherit' }}>
                     <div><img src={logo1} height={40} alt="Logo" /></div>
-                </div>
+                </Link>
 
                 <div className="nav-links">
                     <Link to="/#why" className="nav-link">Why Tint?</Link>

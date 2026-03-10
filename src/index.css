@@ -14,6 +14,31 @@
   --glass-border: rgba(255, 255, 255, 0.08);
 }
 
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background-dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(254, 49, 223, 0.2);
+  border-radius: 10px;
+  border: 2px solid var(--background-dark);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(254, 49, 223, 0.3) var(--background-dark);
+}
+
 * {
   margin: 0;
   padding: 0;
